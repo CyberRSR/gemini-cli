@@ -259,7 +259,7 @@ const App = ({ config, settings, startupWarnings = [] }: AppProps) => {
       return true; // Always accept the fallback
     };
 
-    config.setFlashFallbackHandler(flashFallbackHandler);
+    //config.setFlashFallbackHandler(flashFallbackHandler);
   }, [config, addItem]);
 
   const {
